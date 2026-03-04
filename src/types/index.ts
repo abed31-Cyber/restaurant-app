@@ -1,5 +1,6 @@
 // Types globaux pour l'application Restaurant SaaS
 
+// DTO pour les restaurants, utilisateurs, plats, commandes, réservations, avis, etc.
 export interface Restaurant {
   id: string;
   name: string;
@@ -21,7 +22,7 @@ export interface User {
   id: string;
   email: string;
   name?: string;
-  role: UserRole;
+  role: UserRole;cd
   restaurantId?: string;
   createdAt: string;
 }
